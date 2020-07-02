@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Symfony 4 x Vue.js</title>
+    {{ encore_entry_link_tags('app') }}
+</head>
+<body>
+    <div id="app" data-is-authenticated="{{ isAuthenticated }}" data-user="{{ user }}"></div>
+    {{ encore_entry_script_tags('app') }}
+</body>
+</html>
