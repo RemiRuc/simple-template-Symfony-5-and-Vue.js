@@ -1,4 +1,4 @@
-# Simple template integrating Symfony 5 and Vue.js
+# Simple template integrating Symfony 5 and Vue.js with security integrated
 ## Installation
 ```
 git clone https://github.com/RemiRuc/simple-template-Symfony-5-and-Vue.js.git
