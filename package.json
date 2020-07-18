@@ -4,7 +4,9 @@
         "@babel/runtime": "^7.10.4",
         "@symfony/webpack-encore": "^0.30.0",
         "core-js": "^3.0.0",
+        "node-sass": "^4.14.1",
         "regenerator-runtime": "^0.13.2",
+        "sass-loader": "^9.0.0",
         "vue-loader": "^15.9.3",
         "vue-template-compiler": "^2.6.11",
         "webpack-notifier": "^1.6.0"
@@ -19,6 +21,7 @@
     },
     "dependencies": {
         "axios": "^0.19.2",
+        "sass-resources-loader": "^2.0.3",
         "vue": "^2.6.11",
         "vue-router": "^3.3.4",
         "vuex": "^3.5.1"

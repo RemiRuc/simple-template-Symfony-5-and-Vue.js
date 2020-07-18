@@ -57,8 +57,13 @@ Encore
     })
 
     // enables Sass/SCSS support
-    //.enableSassLoader()
+    .enableSassLoader(function(sassOptions){
+        sassOptions.additionalData = `@import "./assets/css/app.scss";`
+    })
     .enableVueLoader()
+
+
+    //.addStyleEntry('global', './assets/vue/css/app.scss')
 
     // uncomment if you use TypeScript
     //.enableTypeScriptLoader()
